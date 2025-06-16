@@ -1,0 +1,67 @@
+Folder PATH listing
+Volume serial number is 02A3-78C2
+C:.
+¦   main.py
+¦   README.md
+¦   requirements.txt
+¦   structure.txt
+¦   
++---data
+¦   +---UCF-Crime
+¦       +---Abuse
+¦       ¦       Abuse001_x264.mp4
+¦       ¦       Abuse002_x264.mp4
+¦       ¦       
+¦       +---Arrest
+¦       ¦       arrest video 1 results.png
+¦       ¦       Arrest001_x264.mp4
+¦       ¦       Arrest002_x264.mp4
+¦       ¦       
+¦       +---Arson
+¦       ¦       Arson001_x264.mp4
+¦       ¦       Arson002_x264.mp4
+¦       ¦       
+¦       +---Assault
+¦       ¦       Assault001_x264.mp4
+¦       ¦       Assault002_x264.mp4
+¦       ¦       
+¦       +---Normal
+¦               Normal_Videos_015_x264.mp4
+¦               Normal_Videos_100_x264.mp4
+¦               Normal_Videos_248_x264.mp4
+¦               
++---deploy
++---models
++---results
+¦       anomaly_scores.npy
+¦       anomaly_scores_combined.npy
+¦       plot_roc_curve.py
+¦       plot_video_anomaly_scores.py
+¦       true_labels.npy
+¦       true_labels_combined.npy
+¦       
++---src
+    +---features
+    ¦       combine_features.py
+    ¦       extract_mobilenet_features.py
+    ¦       extract_optical_flow.py
+    ¦       
+    +---inference
+    ¦       evaluate_anomaly_detection.py
+    ¦       evaluate_anomaly_detection_combined.py
+    ¦       
+    +---interface
+    ¦   ¦   feature_extractor.py
+    ¦   ¦   tk_anomaly_gui.py
+    ¦   ¦   
+    ¦   +---__pycache__
+    ¦           feature_extractor.cpython-312.pyc
+    ¦           
+    +---preprocessing
+    ¦       extract_and_preprocess_frames.py
+    ¦       
+    +---selfsupervised
+    ¦       train_lstm_predictor.py
+    ¦       train_lstm_predictor_combined.py
+    ¦       
+    +---utils
