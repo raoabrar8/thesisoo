@@ -3,8 +3,8 @@ import numpy as np
 import cv2
 from tqdm import tqdm
 
-FRAME_DIR = 'data/processed_frames'
-FLOW_DIR = 'data/features_opticalflow'
+FRAME_DIR = '/content/drive/MyDrive/data/processed_frames'
+FLOW_DIR = '/content/drive/MyDrive/data/features_opticalflow'
 
 def compute_dense_optical_flow(video_folder, flow_folder):
     frames = sorted([f for f in os.listdir(video_folder) if f.endswith('.npy')])
