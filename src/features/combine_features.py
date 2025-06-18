@@ -2,9 +2,9 @@ import os
 import numpy as np
 from tqdm import tqdm
 
-MOBILENET_DIR = 'data/features_mobilenet'
-FLOW_DIR = 'data/features_opticalflow'
-COMBINED_DIR = 'data/features_combined'
+MOBILENET_DIR = '/content/drive/MyDrive/data/features_mobilenet'
+FLOW_DIR = '/content/drive/MyDrive/data/features_opticalflow'
+COMBINED_DIR = '/content/drive/MyDrive/data/features_combined'
 
 def process_video(mobilenet_path, flow_path, out_path):
     mobilenet_feats = np.load(mobilenet_path)           # shape: (N, 1280)
