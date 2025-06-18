@@ -5,13 +5,13 @@ import tensorflow as tf
 from tensorflow.keras import layers, models, optimizers, losses
 
 # ====== CONFIG ======
-FEATURE_DIR = 'data/features_mobilenet/Normal'  # Path to normal features
+FEATURE_DIR = '/content/drive/MyDrive/data/features_mobilenet/Normal'  # Path to normal features
 SEQ_LEN = 10     # Number of frames in input sequence
 BATCH_SIZE = 32
 EPOCHS = 20
 MODEL_SAVE_PATH = 'models/lstm_predictor.h5'
 
-FEATURE_DIR = 'data/features_combined/Normal'
+FEATURE_DIR = '/content/drive/MyDrive/data/features_combined/Normal'
 
 def load_sequences(feature_dir, seq_len=SEQ_LEN):
     """Loads and prepares (input_seq, target) pairs from all normal videos."""
