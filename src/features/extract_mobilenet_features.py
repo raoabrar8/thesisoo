@@ -5,8 +5,8 @@ from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.models import Model
 
 # Paths
-FRAME_DIR = 'data/processed_frames'
-FEATURE_DIR = 'data/features_mobilenet'
+FRAME_DIR = '/content/drive/MyDrive/data/processed_frames'
+FEATURE_DIR = '/content/drive/MyDrive/data/features_mobilenet'
 IMG_SIZE = (224, 224, 3)
 
 def load_pretrained_mobilenet():
