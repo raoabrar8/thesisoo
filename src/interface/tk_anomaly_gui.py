@@ -311,7 +311,7 @@ def show_about():
         "• Feature extractor: MobileNetV2 (pretrained)\n"
         "• Self-supervised LSTM predictor for anomaly\n"
         "• Evaluated on the UCF-Crime dataset\n\n"
-        "Developed by raoabrar8\n"
+        "Developed by Rao Abrar Nawaz\n"
         "© 2025\n"
     )
     tk.Label(about, text=about_text, bg="#eaf6fa", font=("Segoe UI", 11), justify="center").pack(pady=10)
