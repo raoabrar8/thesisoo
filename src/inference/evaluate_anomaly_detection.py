@@ -6,7 +6,7 @@ from sklearn.metrics import roc_auc_score, accuracy_score
 
 # ====== CONFIG ======
 MODEL_PATH = 'models/lstm_predictor.h5'
-FEATURE_BASE = 'data/features_mobilenet'
+FEATURE_BASE = '/content/drive/MyDrive/data/features_mobilenet'
 SEQ_LEN = 10
 SCORES_SAVE = 'results/anomaly_scores.npy'
 LABELS_SAVE = 'results/true_labels.npy'
