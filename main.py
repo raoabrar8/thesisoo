@@ -4,11 +4,11 @@ import glob
 import subprocess
 
 # ==== CONFIGURATION ====
-UCF_VIDEOS_DIR = 'data/UCF-Crime'
-PROCESSED_FRAMES_DIR = 'data/processed_frames'
-FEATURES_MOBILENET_DIR = 'data/features_mobilenet'
-FEATURES_OPTICALFLOW_DIR = 'data/features_opticalflow'
-FEATURES_COMBINED_DIR = 'data/features_combined'
+UCF_VIDEOS_DIR = '/content/drive/MyDrive/data/UCF-Crime'
+PROCESSED_FRAMES_DIR = '/content/drive/MyDrive/data/processed_frames'
+FEATURES_MOBILENET_DIR = '/content/drive/MyDrive/data/features_mobilenet'
+FEATURES_OPTICALFLOW_DIR = '/content/drive/MyDrive/data/features_opticalflow'
+FEATURES_COMBINED_DIR = '/content/drive/MyDrive/data/features_combined'
 MODELS_DIR = 'models'
 RESULTS_DIR = 'results'
 LSTM_MODEL_PATH = os.path.join(MODELS_DIR, 'lstm_predictor_combined.h5')
