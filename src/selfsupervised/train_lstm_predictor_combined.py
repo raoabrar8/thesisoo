@@ -4,11 +4,11 @@ from tqdm import tqdm
 import tensorflow as tf
 from tensorflow.keras import layers, models, optimizers, losses
 
-FEATURE_DIR = 'data/features_combined/Normal'
+FEATURE_DIR = '/content/drive/MyDrive/data/features_combined/Normal'
 SEQ_LEN = 10
 BATCH_SIZE = 32
 EPOCHS = 20
-MODEL_SAVE_PATH = 'models/lstm_predictor_combined.h5'
+MODEL_SAVE_PATH = '/content/drive/MyDrive/models/lstm_predictor_combined.h5'
 
 def load_sequences(feature_dir, seq_len=SEQ_LEN):
     X, y = [], []
