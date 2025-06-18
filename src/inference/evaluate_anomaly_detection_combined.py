@@ -5,7 +5,7 @@ import tensorflow as tf
 from sklearn.metrics import roc_auc_score, accuracy_score, precision_recall_curve
 
 MODEL_PATH = 'models/lstm_predictor_combined.h5'
-FEATURE_BASE = 'data/features_combined'
+FEATURE_BASE = '/content/drive/MyDrive/data/features_combined'
 SEQ_LEN = 10
 SCORES_SAVE = 'results/anomaly_scores_combined.npy'
 LABELS_SAVE = 'results/true_labels_combined.npy'
