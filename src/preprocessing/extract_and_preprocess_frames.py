@@ -5,8 +5,8 @@ from tqdm import tqdm
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input as mobilenet_preprocess
 
 # Set your dataset and output paths
-VIDEO_DIR = 'data/UCF-Crime'  # Path to UCF-Crime videos (adjust if needed)
-OUTPUT_DIR = 'data/processed_frames'  # Where extracted frames will be saved
+VIDEO_DIR = '/content/drive/MyDrive/data/UCF-Crime'  # Path to UCF-Crime videos (adjust if needed)
+OUTPUT_DIR = '/content/drive/MyDrive/data/processed_frames'  # Where extracted frames will be saved
 FPS = 10  # Extract 10 frames per second
 IMG_SIZE = (224, 224)
 
